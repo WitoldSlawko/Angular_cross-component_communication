@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p>Add new Log of Logs !!!</p>
+            <label>Log name:</label>
+            <input 
+                type="text" 
+                class="form-control"
+                #logContentInput>
+            <br>
+            <button 
+                class="btn btn-primary"
+                (click)="onAddLog(logContentInput)">
+                Click to add new log.
+            </button>
+        </div>
+    </div>
+</div>

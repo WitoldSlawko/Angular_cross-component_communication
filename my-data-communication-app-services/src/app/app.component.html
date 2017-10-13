@@ -1,0 +1,9 @@
+<app-services-sender></app-services-sender>
+
+<app-services-recievier
+  *ngFor="let log of logs"
+  [myLog]="log"> 
+    <li #contentLogs></li>
+</app-services-recievier>
+
+<!-- (logCreated)="onLogAdded($event)" -->
